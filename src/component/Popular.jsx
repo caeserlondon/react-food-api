@@ -11,6 +11,7 @@ const Popular = () => {
 		);
 		const data = await api.json();
 		console.log(data);
+		console.log(data);
 	};
 
 	return <div>Popular</div>;
