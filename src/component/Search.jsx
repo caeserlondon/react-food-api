@@ -1,14 +1,17 @@
 import styled from 'styled-components';
 import { FaSearch } from 'react-icons/fa';
 import { useState } from 'react';
+
 import { useNavigate } from 'react-router-dom';
 
 function Search() {
 	const [input, setInput] = useState('');
+
 	const navigate = useNavigate();
 
 	const submitHandler = (e) => {
 		e.preventDefault();
+
 		navigate('/searched/' + input);
 	};
 
@@ -37,8 +40,8 @@ const FormStyle = styled.form`
 	input {
 		border: none;
 		background: linear-gradient(35deg, yellow, orange);
-		font-size: 1.5rem;
 		color: white;
+		font-size: 1.5rem;
 		padding: 1rem 3rem;
 		border-radius: 1rem;
 		outline: none;
