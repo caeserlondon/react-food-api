@@ -23,7 +23,7 @@ const Popular = () => {
 			const data = await api.json();
 			console.log(data);
 
-			localStorage.setItem('popular', JSON.stringify);
+			localStorage.setItem('popular', JSON.stringify(data.recipes));
 
 			setPopular(data.recipes);
 		}
