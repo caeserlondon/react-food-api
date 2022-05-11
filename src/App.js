@@ -1,12 +1,13 @@
 import Pages from './pages/Pages';
 import Category from './component/Category';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
 	return (
 		<div className="App">
-			<h1>yum yum</h1>
-			<Category />
-			<Pages />
+			<Router>
+				<Category />
+				<Pages />
+			</Router>
 		</div>
 	);
 }
