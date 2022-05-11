@@ -1,9 +1,11 @@
 import styled from 'styled-components';
+import { FaSearch } from 'react-icons/fa';
 
 function Search() {
 	return (
 		<FormStyle>
 			<div>
+				<FaSearch />
 				<input type="text" />
 			</div>
 		</FormStyle>
