@@ -30,7 +30,7 @@ function Search() {
 }
 
 const FormStyle = styled.form`
-	margin: 0rem 20rem;
+	margin: 0rem 10rem;
 
 	div {
 		position: relative;
@@ -40,19 +40,22 @@ const FormStyle = styled.form`
 	input {
 		border: none;
 		background: linear-gradient(35deg, yellow, orange);
-		color: white;
+		color: red;
 		font-size: 1.5rem;
 		padding: 1rem 3rem;
 		border-radius: 1rem;
 		outline: none;
+		margin: auto;
+		width: 50vw;
 	}
 
 	svg {
 		position: abslute;
-		top: 50%;
-		left: 0%;
+		top: 40%;
+		left: 10%;
 		transform: translate(100%, -50%);
-		color: white;
+		color: red;
+		marging-left: 1rem;
 	}
 `;
 
