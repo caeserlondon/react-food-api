@@ -19,7 +19,7 @@ function Searched() {
 
 	useEffect(() => {
 		getSearched(params.search);
-	}, [params]);
+	}, [params.search]);
 
 	return (
 		<Grid>

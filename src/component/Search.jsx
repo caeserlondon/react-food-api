@@ -42,7 +42,7 @@ const FormStyle = styled.form`
 		background: linear-gradient(35deg, yellow, orange);
 		color: red;
 		font-size: 1.5rem;
-		padding: 1rem 3rem;
+		padding: 1rem 4rem;
 		border-radius: 1rem;
 		outline: none;
 		margin: auto;
@@ -50,9 +50,10 @@ const FormStyle = styled.form`
 	}
 
 	svg {
-		position: abslute;
-		top: 40%;
-		left: 10%;
+		position: absolute;
+		top: 50%;
+		left: 0%;
+		font-size: 1.5rem;
 		transform: translate(100%, -50%);
 		color: red;
 		marging-left: 1rem;

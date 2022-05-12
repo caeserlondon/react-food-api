@@ -67,6 +67,7 @@ const SLink = styled(NavLink)`
 	}
 	&:hover {
 		box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+		background: linear-gradient(215deg, yellow, orange);
 	}
 `;
 

@@ -85,7 +85,7 @@ const DetailWrapper = styled.div`
 	}
 
 	ul {
-		margin-top: 3rem;
+		margin-top: 2rem;
 	}
 `;
 
