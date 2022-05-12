@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { link, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function Cuisine() {
@@ -27,8 +27,10 @@ function Cuisine() {
 			{cuisine.map((item) => {
 				return (
 					<Card key={item.id}>
-						<img src={item.image} alt={item.title} />
-						<h4>{item.title}</h4>
+						<Link to={'/recipe/' + item.id}>
+							<img src={item.image} alt={item.title} />
+							<h4>{item.title}</h4>
+						</Link>
 					</Card>
 				);
 			})}
