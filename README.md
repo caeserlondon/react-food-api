@@ -1,18 +1,3 @@
-#YUM YUM
-
-React app and API from https://spoonacular.com/
-using:
-
-React icons,
-
-React-router-dom,
-
-React Splide: React component for a Splide slider/carousel.
-
-styled components: Library built for React which allows the use component-level styles in the application.
-
-framer-motion: A production-ready motion/animation library for React,that makes it easy to create and implement realistic animations.
-
 ---
 
 ### Getting Started with Create React App
